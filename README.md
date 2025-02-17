@@ -16,7 +16,7 @@ You will be working out their calculation using properties of radiative transfer
 
 For this practical, clone the repository and start looking at `ph3-pslu.py`. This is the code you will use to calculate the absorption of the phosphine $J=0,1$ transition, using the temperature profile of Venus, `pT-Venus.dat`.
 
-1. Apply the appropriate parameters for the PH$_3$ $J=0,1$ transition using the [JPL database for molecular spectroscopy](https://spec.jpl.nasa.gov/).
+1. Apply the appropriate parameters for the phosphine $J=0,1$ transition using the [JPL database for molecular spectroscopy](https://spec.jpl.nasa.gov/).
 1. Find the appropriate profile and calculate the lineshape for an arbitrary constant amount of phosphine.
 1. Try a function for phosphine, can be as simple or complex as you like, placing all the phosphine above the clouds, below the clouds, etc.
 1. What if ammonia were observed in the clouds of Venus? Find strong transitions using the above JPL database for 23 GHz $< \nu <$ 24.5 GHz. Apply the same calculations for a single, or multiple transitions.
