@@ -2,8 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import sys
 import copy
-import matplotlib.patches as patches
-import scipy.optimize as sop
 
 
 def lineprofile(nu,nu0):                #Line profile, define as you see fit.
@@ -47,13 +45,10 @@ for i in range(len(nu)):
         I50 = I[i]-1.0
 
 fig, ax = plt.subplots()
-#rect = patches.Rectangle((-50.0,-3.5e-4),100.0,3.5e-4,linewidth=1, edgecolor='none', facecolor='blue',alpha=0.25)
 
 plt.title('Pressure Broadening Coefficient = '+('%.2e' % gamma0)+' cm$^{-1}$ atm$^{-1}$',fontsize=13)
 plt.ylabel('l:c ratio',fontsize=13)
 plt.xlabel('Venus frame velocity (km s$^{-1}$)',fontsize=13)
-
-#ax.add_patch(rect)
 
 ax.set_xlim([-50.0,50.0])
 ax.set_ylim([-1.5e-4,2e-5])
