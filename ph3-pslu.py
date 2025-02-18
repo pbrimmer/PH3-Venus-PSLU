@@ -13,7 +13,7 @@ gamma0 = 0.186        #in cm-1 atm-1 (theoretical)
 
 gamma = gamma0*2.9979e10     #convert cm-1 atm-1 to s-1 atm-1
 nu0 = 300.0*1e9         #center of the line in s-1
-Sstar = 0.0  #PH3 line strength coeff in units of cm-1/(mol cm-2) [JPL units are nm2 MHz]
+Sstar = 0.0  #PH3 line strength coeff in units of cm-1/(molecules cm-2) [JPL units are nm2 MHz]
 muPH3 = 33.998      #mean molecular weight
 nu = np.arange(200.0,400.0001,0.0001) #nu in GHz
 nu *= 1e9                         #convert from GHz to s-1
