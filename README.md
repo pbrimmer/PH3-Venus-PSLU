@@ -3,8 +3,8 @@ A PSLU C3 Practical, looking at PH3 in and above the clouds of Venus.
 
 ## Learning Goals for these Practicals
 
-- Learn about atmospheric biosignatures.
-- Learn about lineshapes and basic radiative transfer.
+- Learn about atmospheric biosignatures
+- Learn about lineshapes and basic radiative transfer
 
 ## Pre-Practical Motivation and Review
 
